@@ -12,6 +12,8 @@ and birth_date like '%-12-25'
 ORDER BY birth_date, hire_date DESC
 LIMIT 5 OFFSET 45;
 
+-- OFFSET = (PAGE# -1) * results per page
+
 SELECT CONCAT(
     'Teaching people to code for ',
     UNIX_TIMESTAMP() - UNIX_TIMESTAMP('2014-02-04'),
