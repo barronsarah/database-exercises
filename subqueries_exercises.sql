@@ -33,6 +33,14 @@ from employees
  and to_date > now()
 )
 
+-- Find all the current department managers that are female- USING JOIN!
+SELECT first_name, last_name
+from employees
+JOIN dept_manager
+ON dept_manager.emp_no = employees.emp_no
+WHERE to_date > now()
+AND gender = 'F';
+
 -- Find all the department names that currently have female managers.
 select dept_name
 from departments
