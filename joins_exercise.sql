@@ -69,7 +69,15 @@ AND dept_manager.to_date LIKE '9999-%'
 
 
 select * from dept_manager
-LIMIT 10  ;
+LIMIT 10;
+
+SELECT first_name, last_name, birth_date
+FROM employees
+WHERE emp_no IN (
+    SELECT emp_no
+    FROM dept_manager
+)
+LIMIT 10;
 
 
 
