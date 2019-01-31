@@ -11,7 +11,7 @@ select COUNT(DISTINCT last_name)
  from employees
 where last_name like '%q%'
 
-select COUNT(gender), gender
+select COUNT(gender) AS Irena_Vidya_Mayas, gender
  from employees
 where first_name in ('Irena', 'Vidya', 'Maya')
  GROUP BY gender;
