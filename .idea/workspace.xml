@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdbdf08c-dc6a-4280-a376-41fc428acd21" name="Default Changelist" comment="" />
+    <list default="true" id="fdbdf08c-dc6a-4280-a376-41fc428acd21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adlister_seeder.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7025ac0f-d67f-4bfe-ad91-faba80ea71e4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7025ac0f-d67f-4bfe-ad91-faba80ea71e4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,21 +38,28 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="adlister: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="departments: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="adlister: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="ad_category: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="salaries: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="adlister: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="categories: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="adlister: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -59,39 +70,82 @@
     </checked>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7025ac0f-d67f-4bfe-ad91-faba80ea71e4/console.sql">
+        <entry file="file://$PROJECT_DIR$/albums_migration.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_by_exercises.sql">
+        <entry file="file://$PROJECT_DIR$/albums_indexes.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/joins_exercise.sql">
+        <entry file="file://$PROJECT_DIR$/subqueries_exercises.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="850">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/subqueries_exercises.sql">
+        <entry file="file://$PROJECT_DIR$/adlister_seeder.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+            <state relative-caret-position="-531">
+              <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/7025ac0f-d67f-4bfe-ad91-faba80ea71e4.SCHEMA:adlister">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>7025ac0f-d67f-4bfe-ad91-faba80ea71e4.SCHEMA:adlister</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.users</node>
+                <node x="115.25" y="380.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category</node>
+                <node x="224.5" y="223.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories</node>
+                <node x="0.5" y="190.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad">
+                  <point x="-49.0" y="-48.0" />
+                  <point x="164.25" y="355.0" />
+                  <point x="102.5" y="355.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+                <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.users">
+                  <point x="0.0" y="-70.0" />
+                  <point x="0.0" y="70.0" />
+                </edge>
+                <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories">
+                  <point x="49.0" y="-48.0" />
+                  <point x="262.25" y="355.0" />
+                  <point x="324.0" y="355.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-13.5" y="210.5" />
+              <SelectedNodes>
+                <node>7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -119,13 +173,15 @@
         <option value="$PROJECT_DIR$/aliases_exercises.sql" />
         <option value="$PROJECT_DIR$/joins_exercise.sql" />
         <option value="$PROJECT_DIR$/subqueries_exercises.sql" />
+        <option value="$PROJECT_DIR$/database_design.sql" />
+        <option value="$PROJECT_DIR$/adlister_seeder.sql" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
+    <option name="x" value="236" />
     <option name="y" value="23" />
-    <option name="width" value="1199" />
+    <option name="width" value="1204" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,8 +209,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548974159043" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549255706572" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="database.data.views" />
@@ -181,30 +237,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548693436937</updated>
-      <workItem from="1548693439394" duration="64547000" />
+      <workItem from="1548693439394" duration="65128000" />
+      <workItem from="1549039681877" duration="15350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64547000" />
+    <option name="totallyTimeSpent" value="80478000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="23" width="1199" height="877" extended-state="0" />
+    <frame x="236" y="23" width="1204" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13828868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.078313254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.3299363" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3987261" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24203822" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
@@ -212,28 +263,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.17804667" />
+      <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.37834394" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24203822" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.12048193" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/albums_migration.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/delete_exercises.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -278,52 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/albums_seeder.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions_exercises.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/albums_indexes.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7025ac0f-d67f-4bfe-ad91-faba80ea71e4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_by_exercises.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_by_exercises.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aliases_exercises.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -352,12 +360,41 @@
               <point x="0.0" y="37.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.209395685000345" x="97.44621820354149" y="178.4462182035415" />
+          <settings layout="Hierarchic Group" zoom="1.209395685000345" x="97.0" y="178.0" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7025ac0f-d67f-4bfe-ad91-faba80ea71e4/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joins_exercise.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_by_exercises.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliases_exercises.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -376,7 +413,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.4337615966796875" x="344.8924683119952" y="173.4037440269042" />
+          <settings layout="Hierarchic Group" zoom="1.1411631932140502" x="356.80850780765064" y="156.24759146471126" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
@@ -385,17 +422,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/joins_exercise.sql">
+    <entry file="file://$PROJECT_DIR$/albums_seeder.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albums_migration.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/albums_indexes.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_by_exercises.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/subqueries_exercises.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="850">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/7025ac0f-d67f-4bfe-ad91-faba80ea71e4.SCHEMA:adlister">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>7025ac0f-d67f-4bfe-ad91-faba80ea71e4.SCHEMA:adlister</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.users</node>
+            <node x="115.25" y="380.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category</node>
+            <node x="224.5" y="223.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories</node>
+            <node x="0.5" y="190.0">7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad">
+              <point x="-49.0" y="-48.0" />
+              <point x="164.25" y="355.0" />
+              <point x="102.5" y="355.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.users">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.ad_category" target="7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories">
+              <point x="49.0" y="-48.0" />
+              <point x="262.25" y="355.0" />
+              <point x="324.0" y="355.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-13.5" y="210.5" />
+          <SelectedNodes>
+            <node>7025ac0f-d67f-4bfe-ad91-faba80ea71e4.TABLE:adlister.categories</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adlister_seeder.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
         </state>
       </provider>
     </entry>
